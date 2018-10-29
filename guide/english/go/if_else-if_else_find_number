@@ -1,0 +1,14 @@
+package main
+import "fmt"
+func main(){
+     var (
+         x = 8
+         )
+if x<= 5 {
+   fmt.Println("5 is less than :", x)
+} else if x>=5 && x<=10 {
+   fmt.Println("Number is inbetween 5 - 10 ", x)
+} else {
+   fmt.Println("Number is greater then 10 :", x)
+}
+}
