@@ -1,0 +1,12 @@
+package main
+import "fmt"
+func main(){
+var (
+     x = 8
+     )
+if x%2 == 0 {
+   fmt.Println("Even number - ", x )
+ } else {
+   fmt.Println("Odd number - ", x)
+ }
+ }
